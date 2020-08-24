@@ -13,9 +13,6 @@ import getVisibleExpenses from './selectors/expenses'
 
 
 const store = configureStore()
-store.dispatch(addExpense({description: 'Water Bill', amount: 100, createdAt: 1000}))
-store.dispatch(addExpense({description: 'Gas Bill', amount: 140, createdAt: 1300}))
-store.dispatch(addExpense({description: 'Rent', amount: 1410, createdAt: 1100}))
 
 
 const jsx = (
